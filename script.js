@@ -6,7 +6,6 @@ phonepeLink.addEventListener('click', (event) => {
   }, 25);
 });
 
-// Repeat similar code for Paytm, GPay, CRED
 const paytmLink = document.getElementById('paytm-link');
 paytmLink.addEventListener('click', (event) => {
   window.location = paytmLink.href;
