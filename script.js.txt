@@ -1,0 +1,9 @@
+// Similar code for each payment option
+const phonepeLink = document.getElementById('phonepe-link');
+phonepeLink.addEventListener('click', (event) => {
+  window.location = phonepeLink.href; // Try deep link
+  setTimeout(() => {
+    // If deep link fails
+    window.location = "https://play.google.com/store/apps/details?id=com.phonepe.app"; // PhonePe Play Store link
+  }, 25);
+});
